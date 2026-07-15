@@ -40,3 +40,10 @@ This project models a practical neutrino communication system as a one-way deep-
 6. `reassemble(frames) -> original_message`
 
 This implementation emphasizes robustness over throughput, which matches current neutrino communication constraints.
+
+## Design assets
+
+- [System design](docs/design/system-design.md): link architecture, interfaces, data flow, and operating assumptions.
+- [Design parameters](docs/design/design-parameters.csv): editable reference values for the conceptual link.
+- [Receiver detector model](models/neutrino_receiver_detector.scad): a parametric OpenSCAD model of the conceptual receiver.
+- [Model guide](models/README.md): rendering and export instructions.

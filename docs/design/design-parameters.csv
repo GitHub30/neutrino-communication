@@ -1,0 +1,9 @@
+parameter,value,unit,description
+message_frame_payload,256,bytes,Application payload per nominal frame
+symbol_slot,1,ms,Conceptual on-off keying time slot
+frame_repetitions,8,count,Repeated protected transmissions per frame
+fec_code_rate,0.5,ratio,Nominal protected-to-information bit ratio
+receiver_tank_radius,6,m,Inner radius of the conceptual detector tank
+receiver_tank_height,12,m,Inner height of the conceptual detector tank
+photodetector_rings,4,count,Horizontal sensor-ring count in the visualization
+photodetectors_per_ring,12,count,Sensor count per ring in the visualization
