@@ -1,0 +1,9 @@
+interface_id,source,destination,category,logical_format,required_signals_or_fields,baseline_behavior
+HWD-IF-001,Photosensor array,Front-end electronics,analog,Sensor pulse,channel_id and pulse signal,Front end digitizes each independently addressable channel
+HWD-IF-002,Timing reference,Front-end electronics,timing,Common epoch and clock,reference_state epoch timing_uncertainty,All front ends use a common acquisition time base
+HWD-IF-003,Trigger controller,Front-end electronics,control,Trigger command,trigger_source event_sequence,Front end records trigger provenance with each event
+HWD-IF-004,Front-end electronics,Data acquisition,data,Event fragment,channel_id timestamp_ns amplitude charge_proxy quality_flags,DAQ builds versioned event records
+HWD-IF-005,Data acquisition,Demodulator,data,Event record,format_version event_id timestamp_ns channel_id timing_quality,Records are buffered and exported without timestamp rewrite
+HWD-IF-006,Slow control,Vessel and medium,telemetry,Status sample,fill_level temperature medium_quality,Telemetry is retained with an acquisition timestamp
+HWD-IF-007,Slow control,Photosensor and front-end electronics,control and telemetry,Health command and status,channel_id health_state calibration_revision,Commands are authenticated and auditable
+HWD-IF-008,Independent interlocks,Hardware enable path,safety,Hardwired interlock state,permit state fault state,Interlock action does not rely on the data network
