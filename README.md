@@ -1,4 +1,6 @@
-# neutrino-communication
+<img width="5504" height="3072" alt="Generated Image July 15, 2026 - 11_35AM" src="https://github.com/user-attachments/assets/c76096c3-bee8-4464-a543-9e1e23b17e47" />
+
+# Neutrino Communication
 
 ## Concrete implementation (English)
 
