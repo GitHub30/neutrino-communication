@@ -1,0 +1,11 @@
+item_id,subsystem,item,baseline_quantity,unit,design_status,verification_reference,notes
+HWD-BOM-001,Detector vessel,Conceptual cylindrical detector vessel,1,assembly,conceptual,HWD-VES-001,Inner dimensions align with the parametric model
+HWD-BOM-002,Detector medium,Qualified interaction medium,1,detector fill,conceptual,HWD-VES-003,Material and containment are site-specific
+HWD-BOM-003,Photosensor array,Independently addressable photosensor,48,channels,conceptual,HWD-SEN-001,Four rings of twelve channels
+HWD-BOM-004,Front-end electronics,Photosensor digitizer channel,48,channels,conceptual,HWD-FE-001,One logical channel per photosensor
+HWD-BOM-005,Timing,Disciplined timing reference and holdover clock,1,assembly,conceptual,HWD-TIM-001,External reference technology is selectable
+HWD-BOM-006,Trigger,Trigger and sequence controller,1,assembly,conceptual,HWD-TIM-003,Records trigger source and event sequence
+HWD-BOM-007,Data acquisition,Event builder and buffered data link,1,assembly,conceptual,HWD-DAQ-001,Exports versioned event records
+HWD-BOM-008,Slow control,Telemetry and command controller,1,assembly,conceptual,HWD-CTL-001,Separates monitoring from safety interlocks
+HWD-BOM-009,Interlocks,Independent site-specific safety interlock chain,1,assembly,site-specific,HWD-CTL-003,Requires qualified safety engineering
+HWD-BOM-010,Calibration,Calibration trigger and reference source,1,assembly,conceptual,HWD-FE-004,Implementation depends on selected sensor technology

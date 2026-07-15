@@ -45,5 +45,8 @@ This implementation emphasizes robustness over throughput, which matches current
 
 - [System design](docs/design/system-design.md): link architecture, interfaces, data flow, and operating assumptions.
 - [Design parameters](docs/design/design-parameters.csv): editable reference values for the conceptual link.
+- [Receiver hardware design](docs/hardware/receiver-hardware-design.md): detailed conceptual receiver subsystems, requirements, and interfaces.
+- [Hardware bill of materials](docs/hardware/receiver-bom.csv): traceable conceptual hardware line items.
+- [Hardware interface control](docs/hardware/receiver-interfaces.csv): electrical, data, timing, and environmental interface definitions.
 - [Receiver detector model](models/neutrino_receiver_detector.scad): a parametric OpenSCAD model of the conceptual receiver.
 - [Model guide](models/README.md): rendering and export instructions.
